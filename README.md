@@ -30,14 +30,14 @@ This folder contains 4 different cuda kernels:
 ## Results: when running each of the files, it will give the time spent on the GPU-related operations and whether the output of the kernel is correct (compared with a verification function defined on the same file)
 
 ## Example:
-user@laptop:~$ git clone https://github.com/gara2000/cuda_math_operations.git
+~$ git clone https://github.com/gara2000/cuda_math_operations.git
 
-user@laptop:~/platform_testing$ cd platform_testing
+~/platform_testing$ cd platform_testing
 
-user@laptop:~$ make clean
+~$ make clean
 rm -f conv sum_red vector_add naive_mat_mul cache_tiled_mat_mul coal_mat_mul
 
-user@laptop:~/platform_testing$ make
+~/platform_testing$ make
 nvcc -o conv conv.cu
 nvcc -o sum_red sum_red.cu
 nvcc -o vector_add vector_add.cu
@@ -45,10 +45,10 @@ nvcc -o naive_mat_mul naive_mat_mul.cu
 nvcc -o cache_tiled_mat_mul cache_tiled_mat_mul.cu
 nvcc -o coal_mat_mul coal_mat_mul.cu
 
-user@laptop:~/platform_testing$ ./vector_add
+~/platform_testing$ ./vector_add
 Elapsed time: 1.80681 ms
 Correct results!
 
-user@laptop:~/platform_testing$
+~/platform_testing$
 
 
