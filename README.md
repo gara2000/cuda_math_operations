@@ -1,6 +1,6 @@
 # PLATFORM TESTING, README
 
-##Description:
+## Description:
 This folder contains 4 different cuda kernels:
 	- Vector Addition kernel: vector_add.cu
 		This kernel performs simple vector addition operation of two vectors a and b of size N
