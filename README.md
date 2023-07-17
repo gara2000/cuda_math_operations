@@ -1,4 +1,4 @@
-# PLATFORM TESTING, README
+# Mathematical operations for platform testing
 
 ## Description:
 This folder contains 4 different cuda kernels:
