@@ -25,10 +25,12 @@ This folder contains 4 different cuda kernels:
 ## Building the project: this will create a compiled code file for each cuda file
 	$ make
 	
-## Testing: replace "compiled_file_name" with the appropriate name: { vector_add , sum_red , conv , naive_mat_mul , coal_mat_mul , cache_tiled_mat_mul }
+## Testing:
+Replace "compiled_file_name" with the appropriate name: { vector_add , sum_red , conv , naive_mat_mul , coal_mat_mul , cache_tiled_mat_mul }
 	$ ./compiled_file_name
 
-## Results: when running each of the files, it will give the time spent on the GPU-related operations and whether the output of the kernel is correct (compared with a verification function defined on the same file)
+## Results:
+When running each of the files, it will give the time spent on the GPU-related operations and whether the output of the kernel is correct (compared with a verification function defined on the same file)
 
 ## Example:
 	~$ git clone https://github.com/gara2000/cuda_math_operations.git
