@@ -27,6 +27,7 @@ This folder contains 4 different cuda kernels:
 	
 ## Testing:
 Replace "compiled_file_name" with the appropriate name: { vector_add , sum_red , conv , naive_mat_mul , coal_mat_mul , cache_tiled_mat_mul }
+
 	$ ./compiled_file_name
 
 ## Results:
