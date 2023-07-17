@@ -31,12 +31,9 @@ This folder contains 4 different cuda kernels:
 
 ## Example:
 ~$ git clone https://github.com/gara2000/cuda_math_operations.git
-
 ~/platform_testing$ cd platform_testing
-
 ~$ make clean
 rm -f conv sum_red vector_add naive_mat_mul cache_tiled_mat_mul coal_mat_mul
-
 ~/platform_testing$ make
 nvcc -o conv conv.cu
 nvcc -o sum_red sum_red.cu
@@ -44,11 +41,7 @@ nvcc -o vector_add vector_add.cu
 nvcc -o naive_mat_mul naive_mat_mul.cu
 nvcc -o cache_tiled_mat_mul cache_tiled_mat_mul.cu
 nvcc -o coal_mat_mul coal_mat_mul.cu
-
 ~/platform_testing$ ./vector_add
 Elapsed time: 1.80681 ms
 Correct results!
-
 ~/platform_testing$
-
-
