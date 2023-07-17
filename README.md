@@ -16,8 +16,8 @@ This folder contains 4 different cuda kernels:
 		This kernel calculates the sum of elements of a vector a of size N
 
 ## Used system packages
-	nvidia-cuda-toolkit	10.1.243
-	git	2.25.1 
+	nvidia-cuda-toolkit=10.1.243
+	git=2.25.1 
 
 ## Cloning the repository:
 	$ git clone https://github.com/gara2000/cuda_math_operations.git 
